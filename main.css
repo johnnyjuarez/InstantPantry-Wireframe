@@ -1,0 +1,149 @@
+/* index styles */
+
+.title {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+input {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.submit {
+  text-decoration: none;
+  background-color: gray;
+  width: 50%;
+  margin: 5% auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.signup {
+  text-decoration: none;
+  background-color: gray;
+  margin: 5% auto;
+  padding: 5px;
+  color: white;
+}
+
+/* register styles */
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nav-login {
+  text-decoration: none;
+  background-color: gray;
+  margin: 5% auto;
+  padding: 5px;
+  color: white;
+}
+
+/* dashboard styles */
+.category {
+  border: 1px solid black;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.category-btnBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.category-btnBox a {
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  padding: 5px;
+}
+
+.addCategory {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  padding: 5px;
+  margin: 5% auto;
+  width: 40%;
+  text-align: center;
+}
+
+/* sample categories styles */
+.home {
+  text-decoration: none;
+  background-color: gray;
+  margin: 5% auto;
+  padding: 5px;
+  color: white;
+}
+
+.catList {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.catItem {
+  list-style: none;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.catItem h3 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.catItem p {
+  margin-left: 5%;
+}
+
+.catItem .img {
+  float: right;
+  margin-right: 40%;
+  margin-bottom: 30%;
+}
+
+.cat-btnBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cat-btnBox a {
+  text-decoration: none;
+  background-color: gray;
+  margin: 5% auto;
+  padding: 5px;
+  color: white;
+}
+
+/* add category */
+
+.addCat-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* add item */
+
+.add-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
